@@ -9,7 +9,8 @@
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@angular/common": "5.0.3",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.8",
+    "cypress": "2.1.0",
     "typescript": "2.4.2"
   },
   "description": "An Ionic project"
